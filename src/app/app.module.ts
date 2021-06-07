@@ -6,13 +6,15 @@ import { UsersComponent } from './users/users.component';
 import {HttpClientModule} from "@angular/common/http";
 import { UserComponent } from './user/user.component';
 import { PostsComponent } from './posts/posts.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
     UserComponent,
-    PostsComponent
+    PostsComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
